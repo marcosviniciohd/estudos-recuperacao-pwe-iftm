@@ -1,0 +1,22 @@
+table{
+    width:50%;
+    text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+    
+}
+th, td, tr {
+    border: solid 1px black;
+}
+#mediaDeSalario{
+    text-align: right;
+    font-weight: bold;
+}
+#mediaSalarial{
+    font-weight: bold;
+
+}
+.alinhaEsquerda{
+    text-align: left;
+    padding-left: 10px;
+}

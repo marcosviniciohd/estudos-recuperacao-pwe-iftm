@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Tabelas</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <th>Nome do funcionário</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+            <th>Salário</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="alinhaEsquerda">Maria José</td>
+                <td rowspan="2">Feminino</td>
+                <td>14</td>
+                <td>R$1.500,00</td>
+            </tr>
+            <tr>
+                <td class="alinhaEsquerda">Ana Clara</td>
+                <td>25</td>
+                <td>R$3.000,00</td>
+            </tr>
+            <tr>
+                <td class="alinhaEsquerda">João Márcio</td>
+                <td rowspan="2">Masculino</td>
+                <td>74</td>
+                <td>R$5.000,00</td>
+            </tr>
+            <tr>
+                <td class="alinhaEsquerda">Robson Crusoé</td>
+                <td>55</td>
+                <td>R$8.000,00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="3" id="mediaDeSalario">Média de salário</td>
+            <td id="mediaSalarial">R$4.375,00</td>
+        </tfoot>
+    </table>
+</body>
+</html>
