@@ -1,8 +1,9 @@
 table{
-    width:50%;
+    width: 600px;
     text-align: center;
     margin: auto;
     border-collapse: collapse;
+    margin-top: 50px;
     
 }
 th, td, tr {

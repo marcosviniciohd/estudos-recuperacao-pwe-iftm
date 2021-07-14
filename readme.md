@@ -4,3 +4,5 @@
  - lista e links            OK
  - Utilizando colspan e rowspan na tabela       OK
  - Estilização de tabelas   OK
+ - Exercicios de Tabelas    OK
+ 
