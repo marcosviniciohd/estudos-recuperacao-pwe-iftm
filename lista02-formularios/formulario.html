@@ -9,15 +9,29 @@
 <body>
     <form>
         <label for="nome">Nome:</label><input type="text" maxlength="40" id="nome"/>
+        <fieldset>
+            <legend>Sexo:</legend>
+            <input type="radio" name="sexo" id="masc"/><label for="masc">Masculino</label>
+            <input type="radio" name="sexo" id="femi"/><label for="femi">Feminino</label> 
+        </fieldset>
+        <fieldset>
+            <legend>Estado civil:</legend>
+            <input type="radio" name="estadoCivil" id="casado"><label for="casado">Casado</label>
+            <input type="radio" name="estadoCivil" id="solteiro"><label for="solteiro">Solteiro</label>
+            <input type="radio" name="estadoCivil" id="viuvo"><label for="viuvo">Viúvo</label>
+        </fieldset>
+        <label for="estado">Estado:</label>
+        <select name="" id="estado">
+            <option value="">Minas Gerais</option>
+            <option value="">São Paulo</option>
+            <option value="">Rio de Janeiro</option>
+        </select>
         <br>
-        <label for="sexo">Sexo:</label> 
-        <input type="radio" name="sexo" id="masc"/><label for="masc">Masculino</label>
-        <input type="radio" name="sexo" id="femi"/><label for="femi">Feminino</label> 
+        <label for="">Deixe sua opinião</label>
         <br>
-        Estado civil:
-        <input type="radio" name="estadoCivil" id="casado"><label for="casado">Casado</label>
-        <input type="radio" name="estadoCivil" id="solteiro"><label for="solteiro">Solteiro</label>
-        <input type="radio" name="estadoCivil" id="viuvo"><label for="viuvo">Viúvo</label>
+        <textarea name="" id="" cols="60" rows="10">
+
+        </textarea>
     </form>
 </body>
 </html>
