@@ -2,4 +2,5 @@
  - Revisão meta tags        OK
  - Formatação de texto      OK
  - lista e links            OK
+ - Utilizando colspan e rowspan na tabela       OK
  
