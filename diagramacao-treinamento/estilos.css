@@ -1,0 +1,58 @@
+nav ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+}
+nav a:link, nav a:visited{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+nav{
+    background-color: rgb(4, 4, 87);
+}
+section h2{
+    color: orangered;
+    font-size: 30px;
+}
+section{
+    width: 1000px;
+    margin: auto;
+}
+section:nth-child(1){
+    padding: 20px;
+    background-color:rgba(242, 251, 253,)
+}
+section p{
+    padding-top: 20px;
+    line-height: 1.7em;
+}
+section button{
+    display: block;
+    width:90%;
+    margin: 10px 0px;
+    padding:5px;
+    border: 2px solid blue;
+    background-color: transparent;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+section img{
+    width:100%;
+}
+.alignCenter{
+    text-align:center;
+    margin-top: 50px;
+}
+@media screen and (min-width: 1000px){
+    section img{
+        width:350px;
+    }
+    nav ul{
+        text-align: right;
+    }
+}
