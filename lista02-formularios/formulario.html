@@ -4,34 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário</title>
+    <title>Formulario</title>
 </head>
 <body>
-    <form>
-        <label for="nome">Nome:</label><input type="text" maxlength="40" id="nome"/>
+    <form action="">
         <fieldset>
-            <legend>Sexo:</legend>
-            <input type="radio" name="sexo" id="masc"/><label for="masc">Masculino</label>
-            <input type="radio" name="sexo" id="femi"/><label for="femi">Feminino</label> 
-        </fieldset>
-        <fieldset>
-            <legend>Estado civil:</legend>
-            <input type="radio" name="estadoCivil" id="casado"><label for="casado">Casado</label>
-            <input type="radio" name="estadoCivil" id="solteiro"><label for="solteiro">Solteiro</label>
-            <input type="radio" name="estadoCivil" id="viuvo"><label for="viuvo">Viúvo</label>
-        </fieldset>
-        <label for="estado">Estado:</label>
-        <select name="" id="estado">
-            <option value="">Minas Gerais</option>
-            <option value="">São Paulo</option>
-            <option value="">Rio de Janeiro</option>
-        </select>
-        <br>
-        <label for="">Deixe sua opinião</label>
-        <br>
-        <textarea name="" id="" cols="60" rows="10">
-
-        </textarea>
+            <legend>Dados pessoais</legend>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" maxlength="60" required>
+            <br>
+            <label for="dataNasc">Data de Nascimento:</label><br>
+            <input type="date" id="dataNasc" required><br>
+            <fieldset>
+                <legend>Sexo:</legend>
+                <input type="radio" name="sexo" id="masc" required><label for="masc">Masculino</label>
+                <input type="radio" name="sexo" id="femi" required><label for="femi">Feminino</label>
+            </fieldset>
+            <fieldset>
+                <legend>Informações de contato</legend>
+                <label for="email">E-mail:</label><br>
+                <input type="email" name="" id="email" required><br>
+                <label for="tel">Telefone celular:</label><br>
+                <input type="tel" name="" id="tel" maxlength="9" required><br>
+                <label for="wp">Website pessoal:</label><br>
+                <input type="url" name="" id="wp" required><br>
+            </fieldset>
+            <fieldset>
+                <legend>Localização</legend>
+                <label for="end">Endereço:</label><br>
+                <input type="text" name="" id="end" required><br>
+                <label for="num">Número:</label><br>
+                <input type="number" name="" id="num" min="1" max="9999" required><br>
+                <label for="estado">Estado:</label><br>
+                <select name="" id="estado" required>
+                    <option value=""></option>
+                    <option value="">Acre</option>
+                    <option value="">Alagoas</option>
+                    <option value="">Amapá</option>
+                    <option value="">Amazonas</option>
+                    <option value="">Bahia</option>
+                    <option value="">Ceará</option>
+                    <option value="">Distrito Fereral</option>
+                    <option value="">Espírito Santo</option>
+                    <option value="">Goiás</option>
+                    <option value="">Maranhão</option>
+                    <option value="">Mato Grosso</option>
+                    <option value="">Mato Grosso do Sul</option>
+                    <option value="">Minas Gerais</option>
+                    <option value="">Pará</option>
+                    <option value="">Paraíba</option>
+                    <option value="">Paraná</option>
+                    <option value="">Pernambuco</option>
+                    <option value="">Piauí</option>
+                    <option value="">Rio de Janeiro</option>
+                    <option value="">Rio Grande do Norte</option>
+                    <option value="">Rio Grande do Sul</option>
+                    <option value="">Rondônia</option>
+                    <option value="">Roraima</option>
+                    <option value="">Santa Catarina</option>
+                    <option value="">São Paulo</option>
+                    <option value="">Sergipe</option>
+                    <option value="">Tocantins</option>
+                </select>
+            </fieldset>
+            <br>
+            <input type="submit" name="" value="Cadastrar">
+            <input type="reset" value="Limpar">
+    </fieldset>
     </form>
 </body>
 </html>
