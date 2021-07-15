@@ -19,10 +19,6 @@ section h2{
     color: orangered;
     font-size: 30px;
 }
-section{
-    width: 1000px;
-    margin: auto;
-}
 section:nth-child(1){
     padding: 20px;
     background-color:rgba(242, 251, 253,)
@@ -54,5 +50,9 @@ section img{
     }
     nav ul{
         text-align: right;
+    }
+    section{
+        width: 1000px;
+        margin: auto;
     }
 }
