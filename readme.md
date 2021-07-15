@@ -5,4 +5,5 @@
  - Utilizando colspan e rowspan na tabela       OK
  - Estilização de tabelas   OK
  - Exercicios de Tabelas    OK
+ - Revisão Formulários      OK
  
